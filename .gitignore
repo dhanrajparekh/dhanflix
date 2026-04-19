@@ -1,0 +1,10 @@
+.env
+config/
+cache/
+data/
+radarr-config/
+sonarr-config/
+prowlarr-config/
+qbittorrent-config/
+jellyseerr-config/
+overseerr-config/

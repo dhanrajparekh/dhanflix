@@ -1,0 +1,5 @@
+tunnel: 16791669-8190-4f27-810b-9c2bd5352483
+ingress:
+  - hostname: watch.dhanrajparekh.com
+    service: http://host.docker.internal:8096
+  - service: http_status:404
