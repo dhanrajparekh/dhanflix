@@ -10,7 +10,7 @@ Personal home media server stack running on Docker. Streams to any device via `w
 | Radarr | Movie library manager | 7878 |
 | Sonarr | TV show library manager | 8989 |
 | Prowlarr | Indexer manager | 9696 |
-| qBittorrent | Download client | 8080 |
+| Downloader | Download client | 8080 |
 | Jellyseerr | Request interface | 5055 |
 | Cloudflared | Cloudflare tunnel for public access | — |
 
@@ -76,7 +76,7 @@ All internal services are bound to `127.0.0.1` — only accessible from the host
 | Radarr | http://localhost:7878 |
 | Sonarr | http://localhost:8989 |
 | Prowlarr | http://localhost:9696 |
-| qBittorrent | http://localhost:8080 |
+| Downloader | http://localhost:8080 |
 | Jellyseerr | http://localhost:5055 |
 | Public | https://watch.dhanrajparekh.com |
 

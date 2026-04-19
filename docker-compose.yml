@@ -14,9 +14,9 @@ services:
     networks:
       - dhanflix
 
-  qbittorrent:
+  downloader:
     image: lscr.io/linuxserver/qbittorrent:latest
-    container_name: qbittorrent
+    container_name: downloader
     restart: unless-stopped
     ports:
       - 127.0.0.1:8080:8080
